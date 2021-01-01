@@ -1,4 +1,5 @@
-==========================  File based Key Value Datastore   https://test.pypi.org/project/KVDatastore/ ==================================
+==========================  File based Key Value Datastore  ==================================
+Pypi page  :         https://pypi.org/project/KVDatastore/
 
 
 

@@ -12,7 +12,7 @@ Since it is a package, you can initialize by following steps.
 
 
 
-	=> open your terminal, run 
+	=> open your terminal, run pip install KVDatastore
 	=> now open your python, run following code.
 	
 >>> from KVDatastore import *

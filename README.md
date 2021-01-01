@@ -16,6 +16,7 @@ Since it is a package, you can initialize by following steps.
 	=> now open your python, run following code.
 	
 >>> from KVDatastore import *
+
 >>> object=KVDatastore()
 	
 	This imports all methods to your code and creates instance of the class

@@ -1,11 +1,9 @@
-==========================  File based Key Value Datastore  ==================================
-       
-       
-       Pypi page  :         https://pypi.org/project/KVDatastore/
+==============  File based Key Value Datastore. Pypi link: https://pypi.org/project/KVDatastore/  =================
+ 
 
 
 
-This is a simple Key value datastore that supports CRD operations(Create, Read, Delete). 
+This is a simple Key value datastore that supports CRD operations(Create, Read, Delete). hosted on Pypi libraries 
 This datastore creates a datastore in your local machine.
 It is implemented using inbuilt datastructure- Dictionary. 
 It is thread-safe by default and every read and write operation is protected with thread locks.

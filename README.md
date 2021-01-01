@@ -16,14 +16,14 @@ Since it is a package, you can initialize by following steps.
 
 
 
-	=> open your terminal, run pip install KVDatastore
+	=> open your terminal and run, pip install KVDatastore
 	=> now open your python, run following code.
 	
 >>> from KVDatastore import *
 
 >>> object=KVDatastore()
 	
-	This imports all methods to your code and creates instance of the class
+	The above code imports all methods to your code and creates instance of the class
 
 	=> The methods available are,
 		--> initdatastore(location)

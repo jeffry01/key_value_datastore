@@ -6,10 +6,10 @@
 
 
 
-This is a simple Key value datastore that supports CRD operations(Create, Read, Delete). hosted on Pypi libraries 
-This datastore creates a datastore in your local machine.
-It is implemented using inbuilt datastructure- Dictionary. 
-It is thread-safe by default and every read and write operation is protected with thread locks.
+This is a simple Key value datastore that supports CRD operations(Create, Read, Delete) hosted on Pypi libraries.
+The datastore is initialized in your local machine.
+The key-value datastore is implemented using inbuilt datastructure with keys having Time To Live property.
+The dict datastructure is thread-safe by default and every read and write operation is protected with thread locks.
 
 
 Since it is a package, you can initialize by following steps.
@@ -43,26 +43,25 @@ Else default directory name of <datastore> is created on your working file path.
 
 ---------------------------------create(key,value)------------------------------------------------
 
-This method is called with key and value. key is usually string and value can be json object.
+This method is called with key and value. key is usually a string and value can be json object.
 If create is invoked for existing key appropriate error is displayed.
-
 Each key is subjected to Time To Live (TTL) property. Default TTL is 360 seconds. 
 User cannot access the key to modify the value not more than 360 seconds.
 The whole datastore is not more than 1Gb.
+
+
 >>> object.create(key,value)
-
-
 
 ----------------------------------read(key)-------------------------------------------------------
 
-This method is called with key. Once the key is expired from TTL, user cannot perform read method for the particular key.
+This method is called with key as parameter. Once the key is expired from TTL, user cannot perform read method for the particular key.
 
 >>> object.read(key)
 
 
 ----------------------------------delete(key)-----------------------------------------------------
 
-This method is called with key. Once the key is expired from TTL, user cannot perform delete method for the particular key.
+This method is called with key as parameter. Once the key is expired from TTL, user cannot perform delete method for the particular key.
 
 >>> object.delete(key)
 

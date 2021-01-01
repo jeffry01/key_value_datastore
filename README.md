@@ -1,6 +1,6 @@
 =====================  File based Key Value Datastore ==================
 
-============= Pypi link: https://pypi.org/project/KVDatastore/   =======
+============= Pypi link: https://pypi.org/project/KVDatastore/   ==================
 
 
 
